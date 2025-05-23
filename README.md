@@ -4,7 +4,7 @@ This repository contains multiple components related to retrieval-augmented gene
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ### `RAG_OpenAI/`
 
@@ -14,29 +14,21 @@ This folder contains a complete implementation of a classic RAG system using Ope
 - Stores them in a vector database
 - Enables conversational retrieval using GPT-4o
 
-➡️ A **detailed README** is included in the folder to guide you step-by-step on usage, configuration, and extensions.
+A **detailed README** is included in the folder to guide you step-by-step on usage, configuration, and extensions.
 
 Link for a direct access [detailed README for the RAG module](./RAG_OpenAI/README.md).
 
 ---
 
-### `GraphRAG/` (from Microsoft)
+### `GraphRAG_Microsoft/` (from Microsoft)
 
-This folder contains Microsoft’s implementation:  
-   Link : [GraphRAG Microsoft](https://github.com/microsoft/graphrag) 
+This folder contains :
+- The full instructions to implement your graphRAG
+- A custom code to help visualize the Graph.
 
-To use it:
+A **detailed README** is included in the folder to guide you step-by-step on usage, configuration, and extensions.
 
-1. Follow Microsoft’s official setup guide:  
-   Link : [Get Started with GraphRAG](https://microsoft.github.io/graphrag/get_started/)
-2. To visualize the knowledge graph using **Gephi**, do the following:
-   - First, run the following script after the graphRAG generation:
-     ```bash
-     python generate_graphml_with_relationships.py
-     ```
-     It aims at formating the data so the links are visible on Gephi.
-   - Then, follow Microsoft’s visualization guide:  
-     Link : [GraphRAG Visualization Guide](https://microsoft.github.io/graphrag/visualization_guide/)
+Link for a direct access [detailed README for the GraphRAH module](./GraphRAG_Microsoft/README.md).
 
 ---
 
@@ -61,7 +53,7 @@ The data was retrieved using TheGuardian's official API.
 
 ---
 
-## ✅ Summary
+## Summary
 
 | Folder                | Description                                                  |
 |-----------------------|--------------------------------------------------------------|
@@ -71,7 +63,7 @@ The data was retrieved using TheGuardian's official API.
 | `Data location/`      | CSV lists of article URLs used as data sources               |
 
 
-## ✅ Detailed explanation
+## Detailed explanation
 Just read the `Project_report.pdf` to see the process and the results.
 
 Link for a direct access [Project_report.pdf](./Project_report.pdf).
