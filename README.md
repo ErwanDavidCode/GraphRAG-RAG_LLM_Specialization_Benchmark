@@ -1,6 +1,6 @@
 # 🧠 RAG & GraphRAG Project
 
-This repository contains multiple components related to retrieval-augmented generation (RAG), graph-based document analysis (GraphRAG), and data evaluation.
+This repository contains implementation and benchmark of retrieval-augmented generation (RAG), graph-based document analysis (GraphRAG).
 
 ---
 
